@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/categories/characters.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Персонажи</title>
+</head>
+<body>
+    <img src="/img/mainblock/wc.jpg" class="background" />
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                
+                <a href="/index.html" class="header__logo">
+                    JkGames
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="/index.html" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/pages/categories.html" class="menu__link">Играть</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page">
+            <div class="main__container _fullcontainer">
+                <div class="main-box"  >
+                    <div class="main-pic"><img src="/img/characters/arthas.jpg" alt="" id="oneOne" onClick="oneOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Артас</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/mario.jpg" alt="" id="twoOne" onClick="twoOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Марио</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/creeper.jpg" alt="" id="threeOne" onClick="threeOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Крипер</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/captainprice.jpg" alt="" id="fourthOne" onClick="fourthOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Капитан Прайс</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/mecheniy.jpeg" alt="" id="fiveOne" onClick="fiveOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Меченый</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/sage.jpg" alt="" id="sixOne" onClick="sixOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Сова</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/jinx.jpeg" alt="" id="sevenOne" onClick="sevenOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Джинкс</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/diluc.jpg" alt="" id="eithOne" onClick="eithOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Дилюк</div>
+                </div>
+            </div>
+            <div class="main__container _fullcontainer">
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/hitman.jpg" alt="" id="oneTwo" onClick="oneTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Хитмэн</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/piramida.jpg" alt="" id="twoTwo" onClick="twoTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Пирамидо-головый</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/dovakin.jpg" alt="" id="threeTwo" onClick="threeTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Довакин</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/darthvader.jpg" alt="" id="fourthTwo" onClick="fourthTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Дарт Вейдер</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/leonkennedy.jpg" alt="" id="fiveTwo" onClick="fiveTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Леон Кеннеди</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/maxpayne.jpg" alt="" id="sixTwo" onClick="sixTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Макс Пэйн</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/link.jpg" alt="" id="sevenTwo" onClick="sevenTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Линк</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/gordonfreeman.jpg" alt="" id="eithTwo" onClick="eithTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Гордон Фримен</div>
+                </div>
+            </div>
+            <div class="main__container _fullcontainer">
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/vaas.jpg" alt="" id="oneThree" onClick="oneThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Ваас</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/kratos.jpg" alt="" id="twoThree" onClick="twoThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Кратос</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/dante.jpg" alt="" id="threeThree" onClick="threeThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Данте</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/subzero.jpg" alt="" id="fourthThree" onClick="fourthThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Саб-Зиро</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/nier2b.png" alt="" id="fiveThree" onClick="fiveThree()" draggable="true" ondragstart="dragStart(event)"   ></div>
+                    <div class="main-title">2B</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/laracroft.jpg" alt="" id="sixThree" onClick="sixThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Лара Крофт</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/geralt.jpg" alt="" id="sevenThree" onClick="sevenThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Геральт</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/characters/travor.jpg" alt="" id="eithThree" onClick="eithThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Тревор</div>
+                </div>
+            </div>
+            <div class="selected-class _choosen-pic">
+                <div class="selected-mainbox">
+                    <div class="selected" id="box" ondragenter="dragEnter(event)" ondrop="dragDrop(event)" ondragover="dragOver(event)"></div>
+                    <div class="main-title">Перенеси сюда картинку</div>
+                </div>
+            </div>
+            <div class="reset-class _reset-full-block">
+            <div class="reset-block">
+                    <li>
+                        <a class="reset-face" href="/pages/categories/characters.html" style="text-decoration: none">
+                            <span class="reset-title">Заново</span>
+                            <div class="reset-icon">
+                                <img alt="" src="/img/mainblock/refreshing.png">
+                                <img alt="" src="/img/mainblock/refreshing1.png">
+                            </div>
+                            
+                        </a>
+                    </li>
+            </div>
+        </div>
+        </main>
+
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/categories/characters.js"></script>
+</body>
+</html>

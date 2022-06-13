@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/categories/films.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Фильмы</title>
+</head>
+<body>
+    <img src="/img/mainblock/wc.jpg" class="background" />
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                
+                <a href="/index.html" class="header__logo">
+                    JkGames
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="/index.html" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/pages/categories.html" class="menu__link">Играть</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page">
+            <div class="main__container _fullcontainer">
+                <div class="main-box"  >
+                    <div class="main-pic"><img src="/img/films/1+1.jpg" alt="" id="oneOne" onClick="oneOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">1+1</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/acuaman.jpg" alt="" id="twoOne" onClick="twoOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Аквамен</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/dovstrechi.jpg" alt="" id="threeOne" onClick="threeOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">До встречи с тобой</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/iamlegend.jpg" alt="" id="fourthOne" onClick="fourthOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Я - легенда</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/illusion.jpeg" alt="" id="fiveOne" onClick="fiveOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Иллюзия обмана</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/interstellar.jpg" alt="" id="sixOne" onClick="sixOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Интерстеллар</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/johnwick3.jpg" alt="" id="sevenOne" onClick="sevenOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Джон Уик 3</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/jumanji.jpg" alt="" id="eithOne" onClick="eithOne()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Джуманджи: Зов джунглей</div>
+                </div>
+            </div>
+            <div class="main__container _fullcontainer">
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/maninblack.jpg" alt="" id="oneTwo" onClick="oneTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Люди в чёрном</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/masks.jpg" alt="" id="twoTwo" onClick="twoTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Маска</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/ono.jpg" alt="" id="threeTwo" onClick="threeTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Оно</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/picachu.jpg" alt="" id="fourthTwo" onClick="fourthTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Детектив Пикачу</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/pila8.jpg" alt="" id="fiveTwo" onClick="fiveTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Пила 8</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/poezdvpusan.png" alt="" id="sixTwo" onClick="sixTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Поезд в Пусан</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/sonik.jfif" alt="" id="sevenTwo" onClick="sevenTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Соник в кино</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/spiderman.jpeg" alt="" id="eithTwo" onClick="eithTwo()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Человек-паук</div>
+                </div>
+            </div>
+            <div class="main__container _fullcontainer">
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/starwars.jpg" alt="" id="oneThree" onClick="oneThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Звёздные войны</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/sumerki.jpg" alt="" id="twoThree" onClick="twoThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Сумерки</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/terminator.jpg" alt="" id="threeThree" onClick="threeThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Терминатор</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/transformeri.jpg" alt="" id="fourthThree" onClick="fourthThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Трансформеры</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/vlastelin.jpg" alt="" id="fiveThree" onClick="fiveThree()" draggable="true" ondragstart="dragStart(event)"   ></div>
+                    <div class="main-title">Властелин колец</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/volksuolstreet.jpg" alt="" id="sixThree" onClick="sixThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Волк с Уолл-стрит</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/zombieland.jpg" alt="" id="sevenThree" onClick="sevenThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Zомбилэнд</div>
+                </div>
+                <div class="main-box">
+                    <div class="main-pic"><img src="/img/films/hatico.jpg" alt="" id="eithThree" onClick="eithThree()" draggable="true" ondragstart="dragStart(event)"></div>
+                    <div class="main-title">Хатико</div>
+                </div>
+            </div>
+            <div class="selected-class _choosen-pic">
+                <div class="selected-mainbox">
+                    <div class="selected" id="box" ondragenter="dragEnter(event)" ondrop="dragDrop(event)" ondragover="dragOver(event)"></div>
+                    <div class="main-title">Перенеси сюда картинку</div>
+                </div>
+            </div>
+            <div class="reset-class _reset-full-block">
+            <div class="reset-block">
+                    <li>
+                        <a class="reset-face" href="/pages/categories/films.html" style="text-decoration: none">
+                            <span class="reset-title">Заново</span>
+                            <div class="reset-icon">
+                                <img alt="" src="/img/mainblock/refreshing.png">
+                                <img alt="" src="/img/mainblock/refreshing1.png">
+                            </div>
+                            
+                        </a>
+                    </li>
+            </div>
+        </div>
+        </main>
+
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/categories/films.js"></script>
+</body>
+</html>
