@@ -1,1 +1,2 @@
 # jkgames
+http://jksite.store/
